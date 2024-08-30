@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LearningRestAssuredSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LearningRestAssured(failed)">
+    <classes>
+      <class name="api.test.UserTests">
+        <methods>
+          <include name="setUpData"/>
+          <include name="testGetUser"/>
+          <include name="testDeleteUser"/>
+        </methods>
+      </class> <!-- api.test.UserTests -->
+    </classes>
+  </test> <!-- LearningRestAssured(failed) -->
+</suite> <!-- Failed suite [LearningRestAssuredSuite] -->

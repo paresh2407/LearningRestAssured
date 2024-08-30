@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T10:56:07 IST" name="LearningRestAssuredSuite" finished-at="2024-08-30T10:56:11 IST" duration-ms="4825">
+    <groups>
+    </groups>
+    <test started-at="2024-08-30T10:56:07 IST" name="LearningRestAssured" finished-at="2024-08-30T10:56:11 IST" duration-ms="4825">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTests@67f639d3]" started-at="2024-08-30T10:56:07 IST" name="setUpData" finished-at="2024-08-30T10:56:07 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@67f639d3]" started-at="2024-08-30T10:56:07 IST" name="testPostUser" finished-at="2024-08-30T10:56:10 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@67f639d3]" started-at="2024-08-30T10:56:10 IST" name="testUpdateUser" finished-at="2024-08-30T10:56:11 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- LearningRestAssured -->
+  </suite> <!-- LearningRestAssuredSuite -->
+</testng-results>
